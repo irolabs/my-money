@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    tools:context=".activity.AddMoneyActivity">
+
+
+    <TextView
+        android:id="@+id/titleAddActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:padding="12dp"
+        android:text="@string/addtransaksi"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@color/bluePrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:padding="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tipe"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="64dp"/>
+
+            <Spinner
+                android:id="@+id/addspinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="6dp"
+                android:background="@drawable/custom_input"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jumlah"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="42dp"/>
+
+
+            <EditText
+                android:id="@+id/edtJumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rp"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:padding="10dp"
+                android:background="@drawable/custom_input"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/keterangan"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="16dp"/>
+
+
+            <EditText
+                android:id="@+id/edtKeterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/keterangan"
+                android:minLines="5"
+                android:maxLines="10"
+                android:gravity="top"
+                android:textColor="@color/black"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:padding="6dp"
+                android:background="@drawable/custom_input"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluePrimary"
+            android:layout_marginTop="24dp"
+            android:text="@string/simpan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

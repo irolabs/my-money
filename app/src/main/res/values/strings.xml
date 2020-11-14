@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyMoney</string>
+    <string name="logo">Logo</string>
+    <string name="my_money">My Money</string>
+    <string name="username">Muhamad Rizal</string>
+    <string name="rp">Rp</string>
+    <string name="mymoney">100000</string>
+    <string name="simpan">SIMPAN</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="tipe">Tipe</string>
+    <string name="addtransaksi">TAMBAH TRANSASKI</string>
+    <string name="income">PEMASUKAN</string>
+    <string name="outcome">PENGELUARAN</string>
+    <string name="money">SISA UANG</string>
+    <string name="rp_100000">Rp 100000</string>
+    <string name="status">STATUS</string>
+    <string name="date">05 November 2020</string>
+    <string name="cashflow">CASHFLOW</string>
+    <string name="edit">EDIT</string>
+    <string name="hapus">HAPUS</string>
+    <string name="update_transaksi">UPDATE TRANSAKSI</string>
+    <string name="dd_mm_yyyy">dd-mm-yyyy</string>
+    <string-array name="option">
+        <item>Pemasukan</item>
+        <item>Pengeluaran</item>
+    </string-array>
+</resources>
